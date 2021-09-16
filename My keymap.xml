@@ -1,8 +1,15 @@
 <keymap version="1" name="My keymap" parent="Sublime Text">
+  <action id="$Paste" />
   <action id="ActivateDatabaseToolWindow">
     <keyboard-shortcut first-keystroke="alt 2" />
   </action>
   <action id="ActivateFavoritesToolWindow" />
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="alt subtract" />
+    <keyboard-shortcut first-keystroke="alt minus" />
+    <mouse-shortcut keystroke="button4" />
+    <keyboard-shortcut first-keystroke="ctrl alt left" />
+  </action>
   <action id="ChangesView.ShelveSilently" />
   <action id="CloseAllEditors">
     <keyboard-shortcut first-keystroke="shift ctrl alt f4" />
@@ -14,7 +21,15 @@
     <keyboard-shortcut first-keystroke="shift ctrl alt semicolon" />
   </action>
   <action id="ContextHelp" />
+  <action id="DatabaseView.DataSourcePasteAction" />
+  <action id="EditorPaste">
+    <keyboard-shortcut first-keystroke="ctrl v" />
+  </action>
   <action id="EditorPasteFromX11" />
+  <action id="EditorPasteSimple">
+    <keyboard-shortcut first-keystroke="shift insert" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt v" />
+  </action>
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="shift ctrl space" />
     <keyboard-shortcut first-keystroke="shift ctrl a" />
@@ -34,6 +49,12 @@
     <keyboard-shortcut first-keystroke="shift tab" />
   </action>
   <action id="ExternalJavaDoc" />
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="shift alt subtract" />
+    <keyboard-shortcut first-keystroke="shift alt minus" />
+    <mouse-shortcut keystroke="button5" />
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
+  </action>
   <action id="ManageRecentProjects">
     <keyboard-shortcut first-keystroke="shift ctrl alt p" />
   </action>
@@ -42,6 +63,11 @@
   </action>
   <action id="ParameterInfo">
     <keyboard-shortcut first-keystroke="f1" />
+  </action>
+  <action id="PasteMultiple">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl v" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="v" />
+    <keyboard-shortcut first-keystroke="shift ctrl v" />
   </action>
   <action id="QuickJavaDoc">
     <keyboard-shortcut first-keystroke="shift f1" />
