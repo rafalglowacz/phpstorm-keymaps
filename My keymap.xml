@@ -1,5 +1,7 @@
 <keymap version="1" name="My keymap" parent="Sublime Text">
-  <action id="$Paste" />
+  <action id="$Paste">
+    <keyboard-shortcut first-keystroke="ctrl v" />
+  </action>
   <action id="ActivateDatabaseToolWindow">
     <keyboard-shortcut first-keystroke="alt 2" />
   </action>
@@ -25,6 +27,9 @@
   </action>
   <action id="ContextHelp" />
   <action id="DatabaseView.DataSourcePasteAction" />
+  <action id="Editor Paste">
+    <keyboard-shortcut first-keystroke="ctrl v" />
+  </action>
   <action id="EditorPaste">
     <keyboard-shortcut first-keystroke="ctrl v" />
   </action>
