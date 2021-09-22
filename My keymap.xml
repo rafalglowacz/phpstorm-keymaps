@@ -10,6 +10,9 @@
     <mouse-shortcut keystroke="button4" />
     <keyboard-shortcut first-keystroke="ctrl alt left" />
   </action>
+  <action id="ChangeSignature">
+    <keyboard-shortcut first-keystroke="ctrl f6" />
+  </action>
   <action id="ChangesView.ShelveSilently" />
   <action id="CloseAllEditors">
     <keyboard-shortcut first-keystroke="shift ctrl alt f4" />
