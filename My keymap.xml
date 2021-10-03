@@ -46,6 +46,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl a" />
     <keyboard-shortcut first-keystroke="shift ctrl j" />
   </action>
+  <action id="EditorToggleCase">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl u" />
+  </action>
   <action id="EditorToggleShowWhitespaces">
     <keyboard-shortcut first-keystroke="ctrl alt w" />
   </action>
@@ -116,4 +119,7 @@
   </action>
   <action id="ToggleBookmark" />
   <action id="UpdateRunningApplication" />
+  <action id="Vcs.Show.Log">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl l" />
+  </action>
 </keymap>
