@@ -79,6 +79,10 @@
     <mouse-shortcut keystroke="button5" />
     <keyboard-shortcut first-keystroke="ctrl alt right" />
   </action>
+  <action id="GotoClass">
+    <keyboard-shortcut first-keystroke="ctrl p" />
+  </action>
+  <action id="GotoFile" />
   <action id="Images.Thumbnails.Hide">
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
