@@ -80,9 +80,8 @@
     <keyboard-shortcut first-keystroke="ctrl alt right" />
   </action>
   <action id="GotoClass">
-    <keyboard-shortcut first-keystroke="ctrl p" />
+    <keyboard-shortcut first-keystroke="ctrl semicolon" />
   </action>
-  <action id="GotoFile" />
   <action id="Images.Thumbnails.Hide">
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
