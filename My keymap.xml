@@ -35,6 +35,9 @@
   <action id="Console.TableResult.Transpose">
     <keyboard-shortcut first-keystroke="shift ctrl alt semicolon" />
   </action>
+  <action id="ContextDebug">
+    <keyboard-shortcut first-keystroke="shift ctrl f9" />
+  </action>
   <action id="ContextHelp" />
   <action id="DatabaseView.DataSourcePasteAction" />
   <action id="Editor Paste">
