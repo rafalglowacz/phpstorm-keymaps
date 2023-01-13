@@ -85,6 +85,12 @@
     <mouse-shortcut keystroke="button5" />
     <keyboard-shortcut first-keystroke="ctrl alt right" />
   </action>
+  <action id="Git.Stash">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="shift ctrl s" />
+  </action>
+  <action id="Git.Unstash">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="shift ctrl u" />
+  </action>
   <action id="GotoClass">
     <keyboard-shortcut first-keystroke="ctrl semicolon" />
   </action>
