@@ -80,6 +80,7 @@
   <action id="EditorChooseLookupItemReplace">
     <keyboard-shortcut first-keystroke="alt y" />
   </action>
+  <action id="EditorJoinLines" />
   <action id="EditorPaste">
     <keyboard-shortcut first-keystroke="ctrl v" />
   </action>
@@ -140,6 +141,9 @@
   <action id="GotoBookmark9" />
   <action id="GotoClass">
     <keyboard-shortcut first-keystroke="ctrl semicolon" />
+  </action>
+  <action id="HideAllWindows">
+    <keyboard-shortcut first-keystroke="ctrl j" />
   </action>
   <action id="HippieBackwardCompletion">
     <keyboard-shortcut first-keystroke="shift alt slash" />
