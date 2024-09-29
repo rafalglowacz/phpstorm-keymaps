@@ -75,12 +75,11 @@
     <keyboard-shortcut first-keystroke="ctrl v" />
   </action>
   <action id="EditorChooseLookupItem">
-    <keyboard-shortcut first-keystroke="ctrl y" />
+    <keyboard-shortcut first-keystroke="ctrl t" />
   </action>
   <action id="EditorChooseLookupItemReplace">
-    <keyboard-shortcut first-keystroke="alt y" />
+    <keyboard-shortcut first-keystroke="ctrl t" />
   </action>
-  <action id="EditorJoinLines" />
   <action id="EditorPaste">
     <keyboard-shortcut first-keystroke="ctrl v" />
   </action>
@@ -142,9 +141,6 @@
   <action id="GotoClass">
     <keyboard-shortcut first-keystroke="ctrl semicolon" />
   </action>
-  <action id="HideAllWindows">
-    <keyboard-shortcut first-keystroke="ctrl j" />
-  </action>
   <action id="HippieBackwardCompletion">
     <keyboard-shortcut first-keystroke="shift alt slash" />
     <keyboard-shortcut first-keystroke="alt semicolon" />
@@ -153,7 +149,7 @@
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
   <action id="InsertInlineCompletionAction">
-    <keyboard-shortcut first-keystroke="ctrl y" />
+    <keyboard-shortcut first-keystroke="ctrl t" />
   </action>
   <action id="ManageRecentProjects">
     <keyboard-shortcut first-keystroke="shift ctrl alt p" />
