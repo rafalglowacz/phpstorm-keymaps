@@ -103,7 +103,7 @@
     <keyboard-shortcut first-keystroke="ctrl alt w" />
   </action>
   <action id="EditorToggleUseSoftWraps">
-    <keyboard-shortcut first-keystroke="shift ctrl alt quote" />
+    <keyboard-shortcut first-keystroke="alt z" />
   </action>
   <action id="EditorUnSelectWord">
     <keyboard-shortcut first-keystroke="shift ctrl m" />
