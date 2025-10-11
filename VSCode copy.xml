@@ -12,11 +12,30 @@
   <action id="ActivateElectroJunToolWindowToolWindow">
     <keyboard-shortcut first-keystroke="ctrl alt 6" />
   </action>
+  <action id="Back">
+    <mouse-shortcut keystroke="button4" />
+    <keyboard-shortcut first-keystroke="ctrl minus" />
+  </action>
   <action id="EditorChooseLookupItem">
     <keyboard-shortcut first-keystroke="ctrl t" />
   </action>
   <action id="EditorChooseLookupItemReplace">
     <keyboard-shortcut first-keystroke="alt t" />
+  </action>
+  <action id="EditorDecreaseFontSize" />
+  <action id="EditorDecreaseFontSizeGlobal">
+    <keyboard-shortcut first-keystroke="shift ctrl minus" />
+  </action>
+  <action id="EditorIncreaseFontSize" />
+  <action id="EditorIncreaseFontSizeGlobal">
+    <keyboard-shortcut first-keystroke="shift ctrl equals" />
+  </action>
+  <action id="EditorStartNewLine">
+    <keyboard-shortcut first-keystroke="shift enter" />
+  </action>
+  <action id="Forward">
+    <mouse-shortcut keystroke="button5" />
+    <keyboard-shortcut first-keystroke="ctrl alt minus" />
   </action>
   <action id="Git.ContextMenu">
     <keyboard-shortcut first-keystroke="ctrl alt g" />
@@ -27,7 +46,16 @@
   <action id="InsertInlineCompletionAction">
     <keyboard-shortcut first-keystroke="right" />
   </action>
+  <action id="ManageRecentProjects">
+    <keyboard-shortcut first-keystroke="shift ctrl alt p" />
+  </action>
+  <action id="ReformatWithPrettierAction" />
+  <action id="ShowHoverInfo">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl k" />
+  </action>
+  <action id="TerminalDecreaseFontSize" />
   <action id="VcsGroups">
     <keyboard-shortcut first-keystroke="alt g" />
   </action>
+  <action id="com.anthropic.code.plugin.actions.OpenClaudeInTerminalAction" />
 </keymap>
