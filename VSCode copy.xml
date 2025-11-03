@@ -33,6 +33,8 @@
   <action id="EditorStartNewLine">
     <keyboard-shortcut first-keystroke="shift enter" />
   </action>
+  <action id="FileChooser.GotoModule" />
+  <action id="FileChooser.NewFile" />
   <action id="Forward">
     <mouse-shortcut keystroke="button5" />
     <keyboard-shortcut first-keystroke="ctrl alt minus" />
@@ -40,6 +42,27 @@
   <action id="Git.ContextMenu">
     <keyboard-shortcut first-keystroke="ctrl alt g" />
   </action>
+  <action id="GoToTab1">
+    <keyboard-shortcut first-keystroke="ctrl 1" />
+  </action>
+  <action id="GoToTab2">
+    <keyboard-shortcut first-keystroke="ctrl 2" />
+  </action>
+  <action id="GoToTab3">
+    <keyboard-shortcut first-keystroke="ctrl 3" />
+  </action>
+  <action id="GoToTab4">
+    <keyboard-shortcut first-keystroke="ctrl 4" />
+  </action>
+  <action id="GoToTab5">
+    <keyboard-shortcut first-keystroke="ctrl 5" />
+  </action>
+  <action id="GotoBookmark0" />
+  <action id="GotoBookmark1" />
+  <action id="GotoBookmark2" />
+  <action id="GotoBookmark3" />
+  <action id="GotoBookmark4" />
+  <action id="GotoBookmark5" />
   <action id="GotoSymbol">
     <keyboard-shortcut first-keystroke="shift ctrl o" />
   </action>
@@ -48,6 +71,10 @@
   </action>
   <action id="ManageRecentProjects">
     <keyboard-shortcut first-keystroke="shift ctrl alt p" />
+  </action>
+  <action id="NewElement">
+    <keyboard-shortcut first-keystroke="alt insert" />
+    <keyboard-shortcut first-keystroke="ctrl n" />
   </action>
   <action id="ReformatWithPrettierAction" />
   <action id="ShowHoverInfo">
