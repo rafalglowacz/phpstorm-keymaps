@@ -1,10 +1,9 @@
 <keymap version="1" name="VSCode copy" parent="VSCode">
-  <action id="AceAction">
-    <keyboard-shortcut first-keystroke="alt n" />
-  </action>
+  <action id="AceAction" />
   <action id="AceLineAction" />
-  <action id="AceTargetAction">
-    <keyboard-shortcut first-keystroke="shift ctrl alt n" />
+  <action id="AceTargetAction" />
+  <action id="AceWordAction">
+    <keyboard-shortcut first-keystroke="alt n" />
   </action>
   <action id="ActivateAIAssistantToolWindow">
     <keyboard-shortcut first-keystroke="alt 6" />
@@ -26,6 +25,9 @@
   <action id="EditorDecreaseFontSizeGlobal">
     <keyboard-shortcut first-keystroke="shift ctrl minus" />
   </action>
+  <action id="EditorDownWithSelection">
+    <keyboard-shortcut first-keystroke="shift down" />
+  </action>
   <action id="EditorIncreaseFontSize" />
   <action id="EditorIncreaseFontSizeGlobal">
     <keyboard-shortcut first-keystroke="shift ctrl equals" />
@@ -35,6 +37,9 @@
   </action>
   <action id="EditorToggleUseSoftWraps">
     <keyboard-shortcut first-keystroke="alt w" />
+  </action>
+  <action id="EditorUpWithSelection">
+    <keyboard-shortcut first-keystroke="shift up" />
   </action>
   <action id="FileChooser.GotoModule" />
   <action id="FileChooser.NewFile" />
@@ -72,18 +77,41 @@
   <action id="InsertInlineCompletionAction">
     <keyboard-shortcut first-keystroke="right" />
   </action>
+  <action id="Log.JumpToSource" />
   <action id="ManageRecentProjects">
     <keyboard-shortcut first-keystroke="shift ctrl alt p" />
+  </action>
+  <action id="MethodDown">
+    <keyboard-shortcut first-keystroke="shift ctrl down" />
+  </action>
+  <action id="MethodUp">
+    <keyboard-shortcut first-keystroke="shift ctrl up" />
   </action>
   <action id="NewElement">
     <keyboard-shortcut first-keystroke="alt insert" />
     <keyboard-shortcut first-keystroke="ctrl n" />
   </action>
+  <action id="NextDiff" />
   <action id="OpenFileInCursor">
     <keyboard-shortcut first-keystroke="shift ctrl alt a" />
   </action>
   <action id="OpenProjectInCursor" />
+  <action id="Pause" />
+  <action id="PhpListenDebugAction">
+    <keyboard-shortcut first-keystroke="ctrl alt l" />
+  </action>
+  <action id="QuickEvaluateExpression">
+    <keyboard-shortcut first-keystroke="ctrl alt f8" />
+    <keyboard-shortcut first-keystroke="f6" />
+  </action>
+  <action id="QuickImplementations">
+    <keyboard-shortcut first-keystroke="alt space" />
+  </action>
   <action id="ReformatWithPrettierAction" />
+  <action id="RunToCursor">
+    <keyboard-shortcut first-keystroke="alt f9" />
+    <keyboard-shortcut first-keystroke="f8" />
+  </action>
   <action id="ShowErrorDescription">
     <keyboard-shortcut first-keystroke="ctrl f1" />
     <keyboard-shortcut first-keystroke="alt e" />
@@ -94,6 +122,10 @@
   <action id="ShowIntentionActions">
     <keyboard-shortcut first-keystroke="ctrl period" />
     <keyboard-shortcut first-keystroke="alt enter" />
+  </action>
+  <action id="StepInto">
+    <keyboard-shortcut first-keystroke="f11" />
+    <keyboard-shortcut first-keystroke="f7" />
   </action>
   <action id="TerminalDecreaseFontSize" />
   <action id="VcsGroups">
